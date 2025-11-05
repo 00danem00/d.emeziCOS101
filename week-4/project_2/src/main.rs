@@ -26,10 +26,10 @@ fn main() {
         let root1 = (-inputb + discriminant.sqrt()) / (2.0 * inputa);
         let root2 = (-inputb - discriminant.sqrt()) / (2.0 * inputa);
         println!("There are two distinct roots: {} and {}", root1, root2);
-    } else if discriminant == 0.0 {
+    }if discriminant == 0.0 {
         let root = -inputb / (2.0 * inputa);
         println!("There is exactly one real root: {}", root);
-    } else {
+    }if discriminant <0.0 {
         println!("There are no real roots.");
     }
 }
