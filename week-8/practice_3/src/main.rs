@@ -1,6 +1,6 @@
  use std::io;
 
- // methos to print the get value
+ // method to print the get value
  fn value(n:Option<&char>)
 {
     println!("Element of vector is {:?}",n);
