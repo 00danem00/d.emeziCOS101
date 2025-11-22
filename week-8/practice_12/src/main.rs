@@ -11,7 +11,7 @@ fn main() {
     println!("First slice = {:?}", sliced_colors);
 
     //chan the value of the original slice at the first index
-    sliced_colors[1] = "purple";
+    sliced_colors[1] = "white";
 
     println!("Changed slice = {:?}\n", sliced_colors);
 }
