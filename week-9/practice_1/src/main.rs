@@ -11,4 +11,5 @@ fn main() {
     file.write_all(dept.as_bytes()).expect("write failed");
 
     println!("Data written to file.");
+    
 }
