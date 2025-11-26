@@ -3,6 +3,7 @@ use std::io::Write;
 
 
 fn main() {
+    let file = std::fs::File::create("data.txt").expect("create failed");
     let mut file = OpenOptions::new()
         .append(true)
         .open("data.txt")
