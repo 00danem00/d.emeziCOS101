@@ -1,0 +1,14 @@
+--- Student Record ---
+Name: dan
+Matric: 123456fghjk
+Department: data
+Level: 100
+-----------------------
+
+--- Student Record ---
+Name: gfc
+Matric: 5667ghj
+Department: comp
+Level: 200
+-----------------------
+
